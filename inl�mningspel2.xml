@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<?xml-stylesheet type="text/xsl" href="inlamning2.xsl" ?>
+
+<tv-spel> <!--  Själva min xml ilämningsuppgift handlar om tv-spel !-->
+  <spel id="fifa12"> <!-- Spel har jag valt för att alla spelen går under elementet spel !-->
+    <namn>fifa12</namn> <!-- Jag valde elementet namn för det förklarar namnet på spelet !-->
+    <genre>sport</genre> <!-- Jag valde elementet genre för att det förklarar vilken genre spelet tillhör !-->
+    <betyg betygsattare="Kochi">10/10</betyg> <!-- Jag valde elementet betyg för att förklara vilket betyg jag ansåg det fick utav 10 möjliga !-->
+    <plattformar> <!-- Jag valde elementet plattformar för att förklara till vilka plattformar spelet finns att spela till !-->
+      <plattform>ps3</plattform> <!-- Jag valde att göra en nivå i plattformar som jag kallar platform, där jag skriver vilka plattformar man kan spela spelet för !-->
+      <plattform>xbox 360</plattform>
+      <plattform>pc</plattform>
+    </plattformar>
+        
+  </spel>
+    
+  <spel id="bf3">
+    <namn>bf3</namn>
+    <genre>action</genre>
+    <betyg betygsattare="Gunther">9/10</betyg>
+       <plattformar>
+        <plattform>ps3</plattform>
+        <plattform>xbox 360</plattform>
+        <plattform>pc</plattform>
+       </plattformar>
+
+  </spel>
+    
+  <spel id="darksouls">
+    <namn>darksouls</namn>
+    <genre>skräck</genre>
+    <betyg betygsattare="Haris">8/10</betyg>
+      <plattformar>
+        <plattform>ps3</plattform>
+        <plattform>xbox 360</plattform>
+        <plattform>pc</plattform>
+      </plattformar>
+        
+  </spel>
+    
+  <spel id="ssx">
+    <namn>ssx</namn>
+    <genre>sport</genre>
+    <betyg betygsattare="Patrik">10/10</betyg>
+    <plattformar>
+      <plattform>ps3</plattform>
+        <plattform>xbox 360</plattform>
+        <plattform>pc</plattform>
+    </plattformar>
+  </spel>
+
+  <spel id="gta iv">
+    <namn>gta iv</namn>
+    <genre>action</genre>
+    <betyg betygsattare="Ali">10/10</betyg>
+    <plattformar>
+      <plattform>ps3</plattform>
+      <plattform>xbox 360</plattform>
+      <plattform>pc</plattform>
+    </plattformar>
+  </spel>
+    
+    <spel id="rayman orgins">
+    <namn>rayman orgins</namn>
+    <genre>äventyr</genre>
+    <betyg betygsattare="Flakrim">9/10</betyg>
+        <plattformar>
+        <plattform>ps3</plattform>
+        <plattform>xbox 360</plattform>
+        <plattform>pc</plattform>
+        </plattformar>
+        
+    </spel>
+    
+    <spel id="driver">
+    <namn>driver</namn>
+    <genre>action</genre>
+    <betyg betygsattare="Johan">7/10</betyg>
+        <plattformar>
+        <plattform>ps3</plattform>
+        <plattform>xbox 360</plattform>
+        <plattform>pc</plattform>
+        </plattformar>
+    </spel>
+  
+    <spel id="nhl 12">
+      <namn>nhl 12</namn>
+      <genre>sport</genre>
+      <betyg betygsattare="Oskar">8/10</betyg>
+      <plattformar>
+        <plattform>ps3</plattform>
+        <plattform>xbox 360</plattform>
+        <plattform>pc</plattform>
+      </plattformar>
+    </spel>
+
+    <spel id="nba  12">
+    <namn>nba 12</namn>
+    <genre>sport</genre>
+    <betyg betygsattare="Viktor">7/10</betyg>
+    <plattformar>
+      <plattform>ps3</plattform>
+      <plattform>xbox 360</plattform>
+      <plattform>pc</plattform>
+    </plattformar>
+    </spel>
+
+
+  <spel id="haze">
+    <namn>haze</namn>
+    <genre>action</genre>
+    <betyg betygsattare="Dennis">4/10</betyg>
+    <plattformar>
+      <plattform>ps3</plattform>
+      <plattform>xbox 360</plattform>
+      <plattform>pc</plattform>
+    </plattformar>
+</spel>
+</tv-spel>
