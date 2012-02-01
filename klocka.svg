@@ -1,21 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="600">
+  <defs>
+    <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="10%" style="stop-color:rgb(50,50,50); stop-opacity:1" />
+      <stop offset="30%" style="stop-color:rgb(200,200,200); stop-opacity:1" />
+      <stop offset="50%" style="stop-color:rgb(0,255,255); stop-opacity:1" />
+      <stop offset="70%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+      <stop offset="90%" style="stop-color:black;stop-opacity:1" />
+    </radialGradient>
+    
+  </defs>
   <g id="urtavla" transform="translate(300, 200)"> 
-    <circle cx="0" cy="0" r="160" stroke="black" stroke-width="2" fill="white" />
-    <text x="-11" y="-143" >XII</text>
-    <text x="70" y="-121" >I</text>
-    <text x="120" y="-80" >II</text>
-    <text x="140" y="0" >III</text>
-    <text x="125" y="80" >IV</text>
-    <text x="70" y="138" >V</text>
-    <text x="-11" y="150" >VI</text>
-    <text x="-80" y="138" >VII</text>
-    <text x="-138" y="80" >VIII</text>
-    <text x="-155" y="0" >IX</text>
-    <text x="-130" y="-80" >X</text>
-    <text x="-70" y="-130" >XI</text>
-    <line id="sekunder" x1="0" x2="0" y1="0" y2="-135" stroke="black" stroke-width="2" />
-    <line id="minuter" x1="0" x2="0" y1="0" y2="-120" stroke="black" stroke-width="2" />
-    <line id="timmar" x1="0" x2="0" y1="0" y2="-100" stroke="black" stroke-width="2" />
+    <circle cx="0" cy="0" r="160" stroke="black" stroke-width="2" fill="url(#grad1)" />
+    <text x="-11" y="-143" style="fill: white;">XII</text>
+    <text x="70" y="-121" style="fill: white;">I</text>
+    <text x="120" y="-80" style="fill: white;">II</text>
+    <text x="140" y="0" style="fill: white;">III</text>
+    <text x="125" y="80" style="fill: white;">IV</text>
+    <text x="70" y="138" style="fill: white;">V</text>
+    <text x="-9" y="158" style="fill: white;">VI</text>
+    <text x="-80" y="138" style="fill: white;">VII</text>
+    <text x="-138" y="80" style="fill: white;">VIII</text>
+    <text x="-155" y="0" style="fill: white;">IX</text>
+    <text x="-130" y="-80" style="fill: white;">X</text>
+    <text x="-70" y="-130" style="fill: white;">XI</text>
+    <!-- path d="M0,-88v-11M0,88v11M88,0h11M-88,0h-11" class="tiks" stroke-width="5" /-->
+
+    <path id="sekunder" d="M 0,0 l -5,-110 l 5,-10 l 5,10 l -5,110" class="klocka" />
+    <path id="timmar"   d="M 0,0 l -5,-50  l 5,-10 l 5,10 l -5,50" class="klocka" />
+    <path id="minuter"  d="M 0,0 l -5,-75  l 5,-10 l 5,10 l -5,75" class="klocka" />
   </g>
   <script type="text/javascript" xlink:href="js.js" />
 </svg>
